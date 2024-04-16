@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 // app.use(cors()); 
 app.use(cors({
-  origin: 'http://localhost:5500' // Atur domain atau port yang diizinkan
+  origin: 'https://nitaa3.github.io/fe-ipkcalc/' // Atur domain atau port yang diizinkan
 }));
 app.use(bodyParser.json());
 app.use('/mahasiswa', mahasiswaRoutes);
